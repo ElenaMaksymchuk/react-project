@@ -1,0 +1,24 @@
+.image1 {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.image2 {
+    width: 495px;
+    margin-bottom: 10px;
+}
+
+.image3 {
+    width: 495px;
+}
+
+.image4 {
+    width: 200px;
+}
+
+.images {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }

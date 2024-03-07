@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 120vh;
+  margin-bottom: 100px;
+}
+
+.text {
+  width: 1000px;
+  text-align: justify;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.text h3 {
+  text-align: center;
+}
+
+.messageForm {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messageForm input[type="text"],
+.messageForm input[type="tel"],
+.messageForm input[type="email"],
+.messageForm textarea {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 0px;
+  background-color: #FBFBFB;
+  resize: none;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.messageForm select {
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #FBFBFB;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.messageForm textarea {
+  font-size: 14px;
+}
+
+.messageForm * {
+  margin-bottom: 10px;
+}
+
+.messageForm input[type="text"]:focus,
+.messageForm input[type="tel"]:focus,
+.messageForm input[type="email"]:focus,
+.messageForm textarea:focus,
+.messageForm select:focus {
+  border-radius: 0px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.customTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.customTable th, .customTable td {    
+  padding: 10px;
+}
+
+.customTable th {
+  background-color: #0d49b2;
   color: white;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.customTable td {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.customTable tr:nth-child(odd) {
+  background-color: #f3f3f3;  
 }
+
+.customTable tr:nth-child(even) {
+  background-color: #E4E6E7;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

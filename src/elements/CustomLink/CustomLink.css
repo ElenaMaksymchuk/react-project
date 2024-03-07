@@ -1,0 +1,64 @@
+.menuLink {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color: #0d49b2;
+}
+
+.menuLink:hover {
+    background-color: #0e55d1;
+}
+
+.activeMenuLink {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color: #063b97;
+}
+
+.footerMenuLink {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.activeFooterMenuLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerMenuLink:hover {
+    color: white;
+}
+
+.categoryMenuLink {
+    text-decoration: none;
+    width: 200px;
+    background-color: #FBFBFB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(238, 238, 238);
+    border-collapse: collapse;
+    color: black;
+}
+
+.categoryMenuLink:hover {
+    text-decoration: none;
+    width: 200px;
+    background-color: #FBFBFB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(238, 238, 238);
+    border-collapse: collapse;
+    color: #0d49b2;
+}
+
+.activeCategoryMenuLink {
+    text-decoration: none;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0d49b2;
+    border: 1px solid #0d49b2;
+    border-collapse: collapse;
+    color: white;
+}

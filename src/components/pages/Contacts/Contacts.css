@@ -1,0 +1,23 @@
+.contacts {
+    display: flex;
+    justify-items: center;
+    width: 1000px;
+}
+
+.contacts p {
+    margin: 0px;
+    text-align: justify;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block p:nth-child(1) {
+    font-weight: bold;
+}
+
+iframe {
+    margin-right: 20px;
+}
+

@@ -1,0 +1,22 @@
+.review {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.reviews p {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.review {
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.review p:nth-child(1) {
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.categories {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriesMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryContent {
+    width: 780px;
+}
+
+.categoriesMessage {
+    text-align: justify;
+    border: 1px solid lightgray;
+    background-color: #FBFBFB; 
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.categoryInfo {
+    padding: 20px;
+    background-color: #FBFBFB;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.categoryInfo p {  
+    text-align: justify;
+}
+
+.categoryInfo * {  
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.categoryInfo p:nth-child(7) {  
+    margin-bottom: 0px;
+}
+
+.categoryInfo *:last-child {  
+    margin-bottom: 0px;
+}
+

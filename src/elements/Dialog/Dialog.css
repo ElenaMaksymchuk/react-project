@@ -1,0 +1,22 @@
+dialog {
+  width: 390px;
+  border: 1px solid gray;
+  padding: 30px;
+}
+
+dialog p {
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+dialog form {
+  display: flex;
+  justify-content: center;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
